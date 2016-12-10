@@ -1,0 +1,40 @@
+object FormDatabase: TFormDatabase
+  Left = 747
+  Height = 183
+  Top = 248
+  Width = 211
+  Caption = 'FormDatabase'
+  OnCreate = FormCreate
+  LCLVersion = '1.6.2.0'
+  object SQLite3Connection1: TSQLite3Connection
+    Connected = False
+    LoginPrompt = False
+    DatabaseName = 'uniden.db'
+    KeepConnection = True
+    Transaction = SQLTransaction1
+    CharSet = 'UTF-8'
+    LogEvents = []
+    Options = []
+    left = 48
+    top = 8
+  end
+  object SQLQuery1: TSQLQuery
+    FieldDefs = <>
+    Database = SQLite3Connection1
+    Transaction = SQLTransaction1
+    SQL.Strings = (
+      ''
+    )
+    Options = []
+    Params = <>
+    left = 152
+    top = 64
+  end
+  object SQLTransaction1: TSQLTransaction
+    Active = False
+    Database = SQLite3Connection1
+    Options = [stoUseImplicit]
+    left = 48
+    top = 56
+  end
+end

@@ -1,0 +1,24 @@
+object FormDebug: TFormDebug
+  Left = 971
+  Height = 306
+  Top = 424
+  Width = 453
+  BorderIcons = []
+  BorderStyle = bsToolWindow
+  Caption = 'Debug'
+  ClientHeight = 306
+  ClientWidth = 453
+  FormStyle = fsStayOnTop
+  OnClose = FormClose
+  LCLVersion = '1.6.2.0'
+  object MemoDebug: TMemo
+    Left = 0
+    Height = 306
+    Top = 0
+    Width = 453
+    Align = alClient
+    ReadOnly = True
+    ScrollBars = ssVertical
+    TabOrder = 0
+  end
+end

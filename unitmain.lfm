@@ -1,0 +1,216 @@
+object Form1: TForm1
+  Left = 767
+  Height = 557
+  Top = 320
+  Width = 1116
+  Caption = 'Scanner Utility'
+  ClientHeight = 537
+  ClientWidth = 1116
+  Menu = MainMenu1
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnShow = FormShow
+  LCLVersion = '1.6.2.0'
+  object StatusBar1: TStatusBar
+    Left = 0
+    Height = 23
+    Top = 514
+    Width = 1116
+    Panels = <    
+      item
+        Text = 'No device present'
+        Width = 200
+      end    
+      item
+        Text = 'Idle'
+        Width = 400
+      end>
+    SimplePanel = False
+  end
+  object Panel1: TPanel
+    Left = 877
+    Height = 514
+    Top = 0
+    Width = 239
+    Align = alRight
+    ClientHeight = 514
+    ClientWidth = 239
+    TabOrder = 1
+    object Edit1: TEdit
+      Left = 9
+      Height = 23
+      Top = 56
+      Width = 224
+      OnChange = Edit1Change
+      TabOrder = 0
+    end
+    object Label1: TLabel
+      Left = 9
+      Height = 15
+      Top = 8
+      Width = 35
+      Caption = 'Search'
+      ParentColor = False
+    end
+    object ComboBox1: TComboBox
+      Left = 9
+      Height = 23
+      Top = 24
+      Width = 224
+      ItemHeight = 15
+      ItemIndex = 0
+      Items.Strings = (
+        'All'
+      )
+      OnChange = ComboBox1Change
+      Style = csDropDownList
+      TabOrder = 1
+      Text = 'All'
+    end
+  end
+  object Panel2: TPanel
+    Left = 0
+    Height = 514
+    Top = 0
+    Width = 877
+    Align = alClient
+    Caption = 'Panel2'
+    ClientHeight = 514
+    ClientWidth = 877
+    TabOrder = 2
+    object StringGrid1: TStringGrid
+      Left = 1
+      Height = 512
+      Top = 1
+      Width = 875
+      Align = alClient
+      ColCount = 9
+      Columns = <      
+        item
+          ReadOnly = True
+          Title.Caption = 'Bank'
+          Width = 35
+        end      
+        item
+          ReadOnly = True
+          Title.Caption = 'Bank name'
+          Width = 100
+        end      
+        item
+          ReadOnly = True
+          Title.Caption = 'Slot'
+          Width = 35
+        end      
+        item
+          MinSize = 20
+          Title.Caption = 'Frequency'
+          Width = 128
+        end      
+        item
+          ButtonStyle = cbsPickList
+          PickList.Strings = (
+            'FM'
+            'AM'
+          )
+          Title.Caption = 'Modulation'
+          Width = 70
+        end      
+        item
+          ButtonStyle = cbsPickList
+          PickList.Strings = (
+            '0'
+            '1'
+          )
+          Title.Caption = 'Dly'
+        end      
+        item
+          ButtonStyle = cbsPickList
+          PickList.Strings = (
+            '0'
+            '1'
+          )
+          Title.Caption = 'Lock'
+        end      
+        item
+          Title.Caption = 'Desc'
+          Width = 400
+        end      
+        item
+          ReadOnly = True
+          Title.Caption = 'Heard?'
+        end>
+      FixedCols = 0
+      Flat = True
+      Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goEditing, goRowSelect, goSelectionActive]
+      PopupMenu = PopupMenu1
+      RowCount = 1
+      TabOrder = 0
+      OnContextPopup = StringGrid1ContextPopup
+      OnEditingDone = StringGrid1EditingDone
+      OnPickListSelect = StringGrid1PickListSelect
+      OnPrepareCanvas = StringGrid1PrepareCanvas
+      OnSelectCell = StringGrid1SelectCell
+    end
+  end
+  object MainMenu1: TMainMenu
+    left = 808
+    top = 440
+    object MenuItem1: TMenuItem
+      Caption = 'Scanner'
+      object MenuItem2: TMenuItem
+        Caption = 'Fetch data from scanner'
+        Enabled = False
+        OnClick = MenuItem2Click
+      end
+      object MenuItem10: TMenuItem
+        Caption = 'Debug'
+        OnClick = MenuItem10Click
+      end
+      object MenuItem3: TMenuItem
+        Caption = 'Rename banks'
+        Enabled = False
+        OnClick = MenuItem3Click
+      end
+      object MenuItem6: TMenuItem
+        Caption = 'About'
+        OnClick = MenuItem6Click
+      end
+    end
+  end
+  object IdleTimer1: TIdleTimer
+    AutoEnabled = True
+    Interval = 3000
+    OnTimer = IdleTimer1Timer
+    left = 808
+    top = 336
+  end
+  object PopupMenu1: TPopupMenu
+    left = 808
+    top = 392
+    object MenuItem7: TMenuItem
+      Caption = 'Mark as heard'
+      Enabled = False
+      OnClick = MenuItem7Click
+    end
+    object MenuItem8: TMenuItem
+      Caption = 'Lookup this frequency'
+      object MenuItem9: TMenuItem
+        Caption = 'At UKE database (polish)'
+        OnClick = MenuItem9Click
+      end
+    end
+    object MenuItem4: TMenuItem
+      Caption = 'Move to bank'
+      Enabled = False
+    end
+    object MenuItem5: TMenuItem
+      Caption = 'Clear'
+      Enabled = False
+      OnClick = MenuItem5Click
+    end
+  end
+  object SaveDialog1: TSaveDialog
+    left = 808
+    top = 288
+  end
+end

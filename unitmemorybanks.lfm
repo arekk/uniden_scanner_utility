@@ -1,0 +1,29 @@
+object Form2: TForm2
+  Left = 894
+  Height = 470
+  Top = 474
+  Width = 653
+  Caption = 'Rename memory banks'
+  ClientHeight = 470
+  ClientWidth = 653
+  OnShow = FormShow
+  LCLVersion = '1.6.2.0'
+  object StringGrid1: TStringGrid
+    Left = 0
+    Height = 470
+    Top = 0
+    Width = 653
+    Align = alClient
+    ColCount = 2
+    Columns = <    
+      item
+        Title.Caption = 'Title'
+        Width = 300
+      end>
+    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goEditing, goSmoothScroll]
+    RowCount = 1
+    TabOrder = 0
+    OnEditingDone = StringGrid1EditingDone
+    OnSelectCell = StringGrid1SelectCell
+  end
+end

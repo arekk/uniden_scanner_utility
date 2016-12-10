@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="31">
+      <Unit0>
+        <Filename Value="project1.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="41" Y="31"/>
+        <UsageCount Value="287"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="unit1.pas"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Unit1"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="287"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="common.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Common"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="272"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="unitdatabase.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormDatabase"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UnitDatabase"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3"/>
+        <CursorPos X="41" Y="6"/>
+        <UsageCount Value="267"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="C:\Lazarus\packager\registration\fcllaz.pas"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos X="14" Y="17"/>
+        <UsageCount Value="265"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="unit4.pas"/>
+        <ComponentName Value="Form2"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Unit4"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="13"/>
+        <CursorPos X="3" Y="29"/>
+        <UsageCount Value="233"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="unit5.pas"/>
+        <ComponentName Value="Form3"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Unit5"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="55" Y="8"/>
+        <UsageCount Value="220"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="ubc00database.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UBC00Database"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="22" Y="9"/>
+        <UsageCount Value="147"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="ubcgeneric1.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UBCGeneric1"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="51"/>
+        <CursorPos X="23" Y="67"/>
+        <UsageCount Value="46"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="C:\Lazarus\libs\laz_synapse\source\lib\synaser.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="721"/>
+        <UsageCount Value="35"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="unit2.pas"/>
+        <ComponentName Value="FormDebug"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UnitDebug"/>
+        <CursorPos X="47" Y="4"/>
+        <UsageCount Value="286"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="unit3.pas"/>
+        <UnitName Value="UBC75XLT"/>
+        <CursorPos X="22" Y="8"/>
+        <UsageCount Value="283"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="scanner.pas"/>
+        <UnitName Value="Scanner"/>
+        <CursorPos X="6"/>
+        <UsageCount Value="210"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="ubc125at.pas"/>
+        <UnitName Value="UBC125XLT"/>
+        <TopLine Value="27"/>
+        <CursorPos X="39" Y="56"/>
+        <UsageCount Value="30"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="C:\Lazarus\fpc\2.6.2\source\rtl\objpas\classes\classesh.inc"/>
+        <TopLine Value="678"/>
+        <CursorPos X="24" Y="690"/>
+        <UsageCount Value="8"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="unitdebug.pas"/>
+        <ComponentName Value="FormDebug"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UnitDebug"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="5"/>
+        <CursorPos X="15" Y="21"/>
+        <UsageCount Value="122"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="UBC75XLT.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="125"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="unitscanner.pas"/>
+        <UnitName Value="UnitScanner"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="40" Y="8"/>
+        <UsageCount Value="104"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="C:\Lazarus\lcl\customdrawn_android.pas"/>
+        <TopLine Value="153"/>
+        <CursorPos Y="172"/>
+        <UsageCount Value="10"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="C:\Lazarus\components\synedit\syneditmiscclasses.pp"/>
+        <UnitName Value="SynEditMiscClasses"/>
+        <TopLine Value="712"/>
+        <CursorPos X="40" Y="731"/>
+        <UsageCount Value="10"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="unit4.lfm"/>
+        <UsageCount Value="2"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="C:\Lazarus\components\synapse\synaser.pas"/>
+        <TopLine Value="1105"/>
+        <CursorPos X="22" Y="395"/>
+        <UsageCount Value="8"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="UBC125XLT.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="14"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="..\..\Downloads\syn\source\lib\synaser.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="9"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="sqlite3.dll"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="19"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="unitmemorybanks.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form2"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UnitMemoryBanks"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="56" Y="7"/>
+        <UsageCount Value="25"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="unitmain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UnitMain"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="37"/>
+        <CursorPos X="78" Y="52"/>
+        <UsageCount Value="25"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="unitinfo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form3"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UnitInfo"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="22" Y="8"/>
+        <UsageCount Value="25"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="C:\Lazarus\lcl\forms.pp"/>
+        <UnitName Value="Forms"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1405"/>
+        <CursorPos X="3" Y="1266"/>
+        <UsageCount Value="10"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="C:\Lazarus\fpc\3.0.0\source\packages\rtl-objpas\src\inc\strutils.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="41"/>
+        <CursorPos X="10" Y="57"/>
+        <UsageCount Value="10"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="synaser.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1451"/>
+        <CursorPos X="33" Y="1463"/>
+        <UsageCount Value="21"/>
+      </Unit30>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="-1"/>
+    </General>
+    <Build>
+      <CleanOutputFileMask Value="C:\Users\Arek\Codebase\uniden_scanner_utility\build"/>
+    </Build>
+    <JumpHistory HistoryIndex="-1"/>
+  </ProjectSession>
+</CONFIG>

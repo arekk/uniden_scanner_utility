@@ -1,0 +1,52 @@
+object Form3: TForm3
+  Left = 527
+  Height = 225
+  Top = 283
+  Width = 317
+  Align = alRight
+  BorderIcons = []
+  BorderStyle = bsDialog
+  Caption = 'About'
+  ClientHeight = 225
+  ClientWidth = 317
+  Position = poDesktopCenter
+  LCLVersion = '1.6.2.0'
+  object Panel1: TPanel
+    Left = 0
+    Height = 225
+    Top = 0
+    Width = 317
+    Align = alClient
+    ClientHeight = 225
+    ClientWidth = 317
+    TabOrder = 0
+    object StaticText1: TStaticText
+      Left = 8
+      Height = 216
+      Top = 8
+      Width = 303
+      Align = alCustom
+      Caption = 'Uniden scanner utility, curently supported devices:'#13#10'UBC75XLT'#13#10#13#10'Check for new versions and other informations on page'#13#10#13#10
+      TabOrder = 0
+    end
+    object OkButton1: TButton
+      Left = 190
+      Height = 31
+      Top = 192
+      Width = 121
+      Caption = 'OK'
+      OnClick = OkButton1Click
+      TabOrder = 1
+    end
+    object StaticText3: TStaticText
+      Cursor = crHandPoint
+      Left = 8
+      Height = 19
+      Top = 72
+      Width = 303
+      Caption = 'https://github.com/arekk/uniden_scanner_utility'
+      OnClick = StaticText3Click
+      TabOrder = 2
+    end
+  end
+end
